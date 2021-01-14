@@ -1,0 +1,27 @@
+.footersection {
+  display: flex;
+  overflow: auto;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-right: 20px;
+  flex-direction: column;
+  background-color: #2b2b2b;
+}
+.text {
+  color: #ffffff;
+  font-weight: bolder;
+  margin-bottom: 15px;
+  letter-spacing: 1.5;
+}
+.text1 {
+  color: #C4C4C4;
+  margin-bottom: 10px;
+}
+.text2 {
+  color: #C4C4C4;
+  margin-bottom: 10px;
+}
+.text3 {
+  color: #C4C4C4;
+  margin-bottom: 10px;
+}

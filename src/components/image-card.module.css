@@ -1,0 +1,35 @@
+.imagecard {
+  width: 400px;
+  display: flex;
+  overflow: auto;
+  align-self: flex-start;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+}
+.image {
+  width: 100%;
+}
+.title {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.description {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+@media(max-width: 991px) {
+  .imagecard {
+    width: 300px;
+  }
+}
+@media(max-width: 479px) {
+  .imagecard {
+    width: 200px;
+  }
+}

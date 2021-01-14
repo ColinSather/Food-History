@@ -1,0 +1,134 @@
+.reusablecomponents {
+  width: 100%;
+  display: flex;
+  grid-gap: 10px;
+  overflow: auto;
+  font-size: 16px;
+  min-height: 100vh;
+  align-items: center;
+  font-family: 'Lato';
+  align-content: stretch;
+  justify-items: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+  grid-template-columns: 1fr 1fr;
+}
+.text {
+  margin-top: 50px;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  padding: 50px;
+  grid-gap: 50px;
+  align-items: center;
+  align-content: end;
+  justify-items: start;
+  justify-content: start;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 10fr;
+}
+.text1 {
+  align-self: center;
+  justify-self: end;
+}
+.text2 {
+  align-self: center;
+  justify-self: end;
+}
+.text3 {
+  align-self: center;
+  justify-self: end;
+}
+.post {
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+}
+.text4 {
+  align-self: center;
+  justify-self: end;
+}
+.text5 {
+  align-self: center;
+  justify-self: end;
+}
+.imagecard {
+  display: inline;
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+}
+.navigation {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+.text6 {
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  margin-bottom: 50px;
+  flex-direction: column;
+  background-color: transparent;
+}
+.text7 {
+  color: #000000;
+  border: none;
+  margin: 15px;
+  display: inline;
+  font-size: 14px;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  letter-spacing: 1.4;
+  padding-bottom: 15px;
+  text-decoration: none;
+  background-color: #8AECDF;
+}
+.text8 {
+  color: #000000;
+  border: none;
+  margin: 15px;
+  display: inline;
+  font-size: 14px;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  letter-spacing: 1.4;
+  padding-bottom: 15px;
+  text-decoration: none;
+  background-color: #8AECDF;
+}
+@media(max-width: 479px) {
+  .grid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  .text1 {
+    margin: 20px;
+  }
+  .text2 {
+    margin: 20px;
+  }
+  .text3 {
+    margin: 20px;
+  }
+  .text4 {
+    margin: 20px;
+    justify-self: end;
+  }
+  .text5 {
+    margin: 20px;
+    justify-self: end;
+  }
+}
